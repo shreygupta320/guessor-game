@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+}
+.s1 {
+  display: flex;
+  justify-content: space-between;
+}
+.s1box1 {
+  padding: 5px;
+  width: 200px;
+  background-color: rgb(200, 191, 191);
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+.s1box2 {
+  color: rgb(200, 191, 191);
+}
+.s2box1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(200, 191, 191);
+  position: relative;
+  text-align: center;
+  top: 5px;
+}
+.s3box1 {
+  position: relative;
+  background-color: rgb(200, 191, 191);
+  height: 5px;
+  top: 50px;
+}
+.s3box2 {
+  background-color: rgb(200, 191, 191);
+  position: relative;
+  z-index: 1;
+  font-size: 80px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  left: 45%;
+  top: -3px;
+}
+.s4 {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.s4left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.s4left1 {
+  color: black;
+  border: 1px solid rgb(200, 191, 191);
+  height: 100px;
+  position: relative;
+  background-color: none;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(200, 191, 191);
+  top: 120px;
+}
+.s4left2 {
+  position: relative;
+  top: 140px;
+  width: 100px;
+  height: 50px;
+}
+.s4right {
+  display: flex;
+  flex-direction: column;
+  color: rgb(200, 191, 191);
+  position: relative;
+  top: 90px;
+  font-size: 20px;
+  justify-content: center;
+}
+.s4right2 {
+  position: relative;
+  top: 10px;
+}
+.s4right3 {
+  position: relative;
+  top: 5px;
+}
